@@ -1,0 +1,9 @@
+name: SpleefBorregos
+version: '1.0-SNAPSHOT'
+main: org.imradigamer.spleefBorregos.SpleefBorregos
+api-version: '1.21'
+authors: [ ImRadiGamer ]
+commands:
+  spleef:
+    description: Únete o crea un lobby de Spleef
+    permission: spleef.admin
