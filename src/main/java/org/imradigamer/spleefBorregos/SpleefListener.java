@@ -81,7 +81,7 @@ public class SpleefListener implements Listener {
             player.teleport(spawnLocation);
             player.sendMessage(PREFIX + ChatColor.RED + "Has sido eliminado. ¡Ahora estás en modo espectador!");
             player.playSound(player.getLocation(), Sound.ENTITY_WITHER_DEATH, 1.0f, 1.0f);
-            lobby.sendMessageToLobby(PREFIX + ChatColor.RED + player.getName() + " ha sido eliminado.");
+            lobby.sendMessageToLobby(ChatColor.RED + player.getName() + " ha sido eliminado.");
             lobby.getPlayers().remove(player);
 
             // Check if the game should end
